@@ -1,5 +1,5 @@
 [package]
-name = "brainfuck-rust-interpretor"
+name = "brainfuck-rust-interpreter"
 version = "0.1.0"
 edition = "2024"
 

@@ -1,10 +1,7 @@
-{ lib
+{ 
+  lib
 , rustPlatform
 , pkg-config
-, stdenv
-, 
-  # Add system libraries you need to link against here, e.g. openssl
-  openssl ? null
 }:
 
 rustPlatform.buildRustPackage rec {
@@ -26,3 +23,4 @@ rustPlatform.buildRustPackage rec {
     mainProgram = "brainfuck-rust-interpreter";
   };
 }
+

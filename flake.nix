@@ -1,6 +1,5 @@
-# flake.nix
 {
-  description = "Brainfuck Rust Interpreter – dev shell and package";
+  description = "Brainfuck Rust Interpreter dev shell and package";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
